@@ -1,57 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>One Million Lines</title>
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Arvo"
+    />
+    <link rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome/css/font-awesome.min.css"/>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="../Squelette/css/custom.css" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
 
   <body>
 
-    <nav>
-      <!-- Votre code ici -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body " data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../Squelette/images/top-logo.png">
+        </a>
+        <button class="navbar-toggler btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navigation" id="navbarText">
+            <ul class=" navbar-nav me-2  mb-2 mb-lg-2 list-unstyled ">
+              <li class="nav-item ">
+                <a class="nav-link text-white mx-4 my-auto btn btn-danger " aria-current="page" href="#"> Who we are</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white mx-4 my-auto btn btn-danger  " aria-current="page" href="#">Get involved</a>
+              </li>
+            </ul>
+            
+        </div>
+      </div>
     </nav>
+   
 
-    <div id="home">
-      <!-- Votre code ici -->
-    </div><!-- /#home -->
+    <div class="row">
+      <div class="mycol col-12 text-center">
+        <h1 class="text-white font-weight-bolder display-4 pt-5">
+          Our goal is to inspire <br />
+          Tallahassee to wrire 1,000,000 <br />lines of code_
+        </h1>
+        <p class="m-5 text-white">
+          Lorem ipsum dolor sit <b>amet consectetur</b>, adipisicing elit. Qui eos
+          laboriosam doloribus quo dignissimos.<br> Harum repellat ipsam earum
+          commodi voluptatum aspernatur officia, esse, ducimus, voluptatem
+          <b>provident</b> neque fugiat consectetur<br> necessitatibus dolor ab nisi. Alias
+          necessitatibus quasi deleniti, atque quo molestias <br> magnam at nihil,
+          corrupti vero exercitationem ad non, maxime doloribus.
+        </p>
+        <a href="../screenshot-modal.png" class="btn btn-danger btn-lg m-4 text-white">
+          learn more>>
+       
+      </a>
+        <div class="image2">
+          <img class="mb-5" src="./images/code.png" alt="" />
+        </div>
+      </div>
+    </div>
 
-    <div id="who">
+    <div id="home" class="d-flex flex-column text-center align-items-center">
       <!-- Votre code ici -->
-    </div><!-- /#who -->
+      <figure class="d-flex flex-column text-center align-items-center">
+        <img class="mx-auto mt-5 " src="./images/academy-brand-med.png"alt=""/>
+       
+        <h5 class="cc text-danger text-uppercase p-3 font-weight-bolder">who we are</h5>
+        
+
+        <hr class="opacity-100 border-danger" width="100" color="red" />
+        
+      </figure>
+     
+      <div>
+        <p class="">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+        <span class="text-danger">Lorem, ipsum dolor.</span>Illo assumenda
+        reiciendis libero quaerat similique <br>necessitatibus minus autem dolorum
+        ut? Perspiciatis culpa enim nostrum<br> aliquid error, asperiores, iure
+        tenetur architecto quo voluptas laudantium numquam adipisci accusantium.
+      </p>
+    </div>
+    </div>
+    <!-- /#home -->
 
     <div id="get-involved">
-      <!-- Votre code ici -->
-    </div><!-- /#get-involved -->
+      <div class="bg-light px-5">
+        <h5 class=" cc text-danger text-center text-uppercase  font-weight-bolder pt-5">
+          get involved
+        </h5>
+        <div class="d-flex justify-content-center">
+          <hr class="opacity-100 border-danger" width="100" color="red" />
+        </div>
 
-    <footer>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-3 text-center">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="5em" viewBox="0 0 448 512"> <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/>
+            </svg>
+            <h6 class="ccc text-danger text-uppercase m-3 font-weight-bolder">
+              students
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              consequatur fugit excepturi, animi c
+            </p>
+            <button class="btn btn-lg m-4 text-danger border">
+              start learning>>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-3 text-center">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg"height="5em" viewBox="0 0 512 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"/>
+            </svg>
+            <h6 class="ccc text-danger text-uppercase m-3 font-weight-bolder ">
+              educators
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              consequatur fugit excepturi, animi c
+            </p>
+            <button class="btn btn-lg m-4 text-danger border">
+              join the initiative>>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-3 text-center ">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg"height="5em"viewBox="0 0 576 512">
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zm64 320H64V320c35.3 0 64 28.7 64 64zM64 192V128h64c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64v64H448zm64-192c-35.3 0-64-28.7-64-64h64v64zM176 256a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm76-48c0 9.7 6.9 17.7 16 19.6V276h-4c-11 0-20 9-20 20s9 20 20 20h24 24c11 0 20-9 20-20s-9-20-20-20h-4V208c0-11-9-20-20-20H272c-11 0-20 9-20 20z"/>
+            </svg>
+            
+            <h6 class="ccc text-danger text-uppercase m-3 font-weight-bolder ">
+              sponsors
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              consequatur fugit excepturi, animi c
+            </p>
+            <button class="btn btn-lg m-4 text-danger border">
+              give support>>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#get-involved -->
+
+    <footer >
       <!-- Votre code ici -->
+      
+      <div class="bg-danger">
+      
+        <img src="images/one-million-bottom-brand.png " alt="" />
+         
+     
+      
+        <a  class="c1" href=""><svg xmlns="http://www.w3.org/2000/svg"height="2em"viewBox="0 0 512 512">
+          <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg></a>
+         </div>
     </footer>
 
     <div id="back-to-top">
       <!-- Votre code ici -->
-    </div><!-- /#back-to-top -->
-
+    </div>
+    <!-- /#back-to-top -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="js/smoothscroll.js"></script>
   </body>
 </html>
